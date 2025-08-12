@@ -6,8 +6,7 @@ const cors = require("cors");
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost:5173",            
-  process.env.CLIENT_URL || "https://auth-frontend-orpin.vercel.app" 
+"https://auth-frontend-orpin.vercel.app" 
 ];
 
 app.use(cors({
