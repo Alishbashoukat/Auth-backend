@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({
-  origin: process.env.CLIENT_URL || "https://auth-frontend-orpin.vercel.app/",
+  origin: process.env.CLIENT_URL || "https://auth-frontend-orpin.vercel.app",
   credentials: true
 }));
 app.use(express.json());
